@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Routes, Navigate } from 'react-router-dom';
+import { HashRouter, Route, Routes, Navigate } from 'react-router-dom';
 import './styles/main.scss';
 import { useSelector } from 'react-redux';
 import { NewsPage } from './Components/NewsPage';
@@ -22,13 +22,15 @@ export const App: React.FC = () => {
   return (
     <div className="app">
       <Header />
-      <Routes>
-        <Route path={homePagePath} element={<HomePage />} />
-        <Route path={newsPagePath} element={<NewsPage />} />
-        <Route path={signInPagePath} element={<SignInPage />} />
-        <Route path={profilePagePath} element={isLoggedIn ? <ProfilePage /> : <Navigate to="/" />} />
-        <Route path="*" element={<PageNotFound />} />
-      </Routes>
+      <HashRouter>
+        <Routes>
+          <Route path={homePagePath} element={<HomePage />} />
+          <Route path={newsPagePath} element={<NewsPage />} />
+          <Route path={signInPagePath} element={<SignInPage />} />
+          <Route path={profilePagePath} element={isLoggedIn ? <ProfilePage /> : <Navigate to="/" />} />
+          <Route path="*" element={<PageNotFound />} />
+        </Routes>
+      </HashRouter>
     </div>
   );
 };
