@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/%3Crepo%3E/static/css/main.28a0be2a.chunk.css",
-    "main.js": "/%3Crepo%3E/static/js/main.95647f8c.chunk.js",
-    "main.js.map": "/%3Crepo%3E/static/js/main.95647f8c.chunk.js.map",
-    "runtime-main.js": "/%3Crepo%3E/static/js/runtime-main.5c23115f.js",
-    "runtime-main.js.map": "/%3Crepo%3E/static/js/runtime-main.5c23115f.js.map",
-    "static/js/2.2343a78a.chunk.js": "/%3Crepo%3E/static/js/2.2343a78a.chunk.js",
-    "static/js/2.2343a78a.chunk.js.map": "/%3Crepo%3E/static/js/2.2343a78a.chunk.js.map",
-    "index.html": "/%3Crepo%3E/index.html",
-    "static/css/main.28a0be2a.chunk.css.map": "/%3Crepo%3E/static/css/main.28a0be2a.chunk.css.map",
-    "static/js/2.2343a78a.chunk.js.LICENSE.txt": "/%3Crepo%3E/static/js/2.2343a78a.chunk.js.LICENSE.txt",
-    "static/media/main.scss": "/%3Crepo%3E/static/media/Montserrat-Light.34270926.ttf",
-    "static/media/favoriteIllustration.7e83fd9d.jpg": "/%3Crepo%3E/static/media/favoriteIllustration.7e83fd9d.jpg",
-    "static/media/homePageIllustration.44f1f722.jpg": "/%3Crepo%3E/static/media/homePageIllustration.44f1f722.jpg",
-    "static/media/icons-planet.9c97b499.png": "/%3Crepo%3E/static/media/icons-planet.9c97b499.png",
-    "static/media/noResults.263cf2a0.jpg": "/%3Crepo%3E/static/media/noResults.263cf2a0.jpg",
-    "static/media/notFoundIllustration.31ba2ae8.jpg": "/%3Crepo%3E/static/media/notFoundIllustration.31ba2ae8.jpg",
-    "static/media/signInIllustration.4d900f08.jpg": "/%3Crepo%3E/static/media/signInIllustration.4d900f08.jpg"
+    "main.css": "/space_app/static/css/main.39397e5c.chunk.css",
+    "main.js": "/space_app/static/js/main.4c97eab4.chunk.js",
+    "main.js.map": "/space_app/static/js/main.4c97eab4.chunk.js.map",
+    "runtime-main.js": "/space_app/static/js/runtime-main.923462a2.js",
+    "runtime-main.js.map": "/space_app/static/js/runtime-main.923462a2.js.map",
+    "static/js/2.2343a78a.chunk.js": "/space_app/static/js/2.2343a78a.chunk.js",
+    "static/js/2.2343a78a.chunk.js.map": "/space_app/static/js/2.2343a78a.chunk.js.map",
+    "index.html": "/space_app/index.html",
+    "static/css/main.39397e5c.chunk.css.map": "/space_app/static/css/main.39397e5c.chunk.css.map",
+    "static/js/2.2343a78a.chunk.js.LICENSE.txt": "/space_app/static/js/2.2343a78a.chunk.js.LICENSE.txt",
+    "static/media/main.scss": "/space_app/static/media/Montserrat-Light.34270926.ttf",
+    "static/media/favoriteIllustration.7e83fd9d.jpg": "/space_app/static/media/favoriteIllustration.7e83fd9d.jpg",
+    "static/media/homePageIllustration.44f1f722.jpg": "/space_app/static/media/homePageIllustration.44f1f722.jpg",
+    "static/media/icons-planet.9c97b499.png": "/space_app/static/media/icons-planet.9c97b499.png",
+    "static/media/noResults.263cf2a0.jpg": "/space_app/static/media/noResults.263cf2a0.jpg",
+    "static/media/notFoundIllustration.31ba2ae8.jpg": "/space_app/static/media/notFoundIllustration.31ba2ae8.jpg",
+    "static/media/signInIllustration.4d900f08.jpg": "/space_app/static/media/signInIllustration.4d900f08.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.5c23115f.js",
+    "static/js/runtime-main.923462a2.js",
     "static/js/2.2343a78a.chunk.js",
-    "static/css/main.28a0be2a.chunk.css",
-    "static/js/main.95647f8c.chunk.js"
+    "static/css/main.39397e5c.chunk.css",
+    "static/js/main.4c97eab4.chunk.js"
   ]
 }
