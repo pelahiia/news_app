@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { useSelector } from 'react-redux';
 import {
@@ -23,6 +23,7 @@ import {
 
 export const Header: React.FC = () => {
   const { i18n, t } = useTranslation();
+  const navigate = useNavigate();
   const isLoggedIn = useSelector((state: RootState) => state.auth.isLoggedIn);
   const [language, setLanguage] = useState<string>('eng');
   const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
@@ -43,16 +44,23 @@ export const Header: React.FC = () => {
     setAnchorEl(null);
   };
 
+  const handleLogoRedirect = () => {
+    navigate('/');
+  }
+
   return (
     <nav className="header-navbar">
       <div className="header-navbar-content">
-        <a href={homePagePath} className="header-navbar-icon">
+        <div 
+          className="header-navbar-icon"
+          onClick={handleLogoRedirect}
+        >
           <img
             className="header-navbar-icon"
             src={logoIcon}
             alt="Main Logo Icon"
           />
-        </a>
+        </div>
         <NavLink
           to={homePagePath}
           className={({ isActive }) => (isActive ? 'header-navbar-active' : 'header-navbar-inactive')}

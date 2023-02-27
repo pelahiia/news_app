@@ -31,7 +31,7 @@ export const App: React.FC = () => {
         <Route path={newsPagePath} element={<NewsPage />} />
         <Route path={signInPagePath} element={<SignInPage />} />
         <Route path={profilePagePath} element={isLoggedIn ? <ProfilePage /> : <Navigate to="/" />} />
-        <Route path="*" element={<PageNotFound />} />
+        <Route path="/*" element={<PageNotFound />} />
       </Routes>
     </div>
   );
