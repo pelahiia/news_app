@@ -1,6 +1,5 @@
 import React from 'react';
 import {
-  HashRouter,
   Route,
   Routes,
   Navigate,
@@ -27,15 +26,13 @@ export const App: React.FC = () => {
   return (
     <div className="app">
       <Header />
-      <HashRouter>
-        <Routes>
-          <Route path={homePagePath} element={<HomePage />} />
-          <Route path={newsPagePath} element={<NewsPage />} />
-          <Route path={signInPagePath} element={<SignInPage />} />
-          <Route path={profilePagePath} element={isLoggedIn ? <ProfilePage /> : <Navigate to="/" />} />
-          <Route path="*" element={<PageNotFound />} />
-        </Routes>
-      </HashRouter>
+      <Routes>
+        <Route path={homePagePath} element={<HomePage />} />
+        <Route path={newsPagePath} element={<NewsPage />} />
+        <Route path={signInPagePath} element={<SignInPage />} />
+        <Route path={profilePagePath} element={isLoggedIn ? <ProfilePage /> : <Navigate to="/" />} />
+        <Route path="*" element={<PageNotFound />} />
+      </Routes>
     </div>
   );
 };
