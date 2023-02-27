@@ -1,5 +1,10 @@
 import React from 'react';
-import { HashRouter, Route, Routes, Navigate } from 'react-router-dom';
+import {
+  HashRouter,
+  Route,
+  Routes,
+  Navigate,
+} from 'react-router-dom';
 import './styles/main.scss';
 import { useSelector } from 'react-redux';
 import { NewsPage } from './Components/NewsPage';
