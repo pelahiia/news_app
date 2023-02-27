@@ -1,0 +1,92 @@
+.user_page {
+  margin: 50px;
+
+  &_front {
+    display: flex;
+    justify-content: space-between;
+
+    &_title {
+      font-family: "InterBold", sans-serif;
+      font-size: 50px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+
+      @include onTablet {
+        font-size: 40px;
+      }
+
+      @include onMobile {
+        font-size: 32px;
+      }
+    }
+
+    &_logout {
+      align-self: center;
+      display: flex;
+
+      &_icon {
+        align-self: center;
+      }
+    }
+  }
+}
+
+.favorites_not_found {
+  display: flex;
+  justify-content: space-between;
+
+  @include onMobile {
+    flex-direction: column;
+  }
+
+  &_info {
+    &_title {
+      font-family: "InterRegular", sans-serif;
+      font-size: 38px;
+      margin-top: 10px;
+
+      @include onTablet {
+        font-size: 32px;
+      }
+
+      @include onMobile {
+        font-size: 24px;
+      }
+    }
+
+    &_text {
+      display: block;
+      width: 600px;
+      font-family: "InterLight", sans-serif;
+      font-size: 32px;
+      line-height: 46px;
+
+      @include onTablet {
+        font-size: 28px;
+        width: 400px;
+        line-height: 40px;
+      }
+
+      @include onMobile {
+        font-size: 24px;
+        width: 300px;
+        line-height: 36px;
+      }
+    }
+  }
+
+  &_illustration {
+    height: 512px;
+    width: 512px;
+
+    @include onTablet {
+      height: 400px;
+      width: 400px;
+    }
+
+    @include onMobile {
+      height: 300px;
+      width: 300px;
+    }
+  }
+}

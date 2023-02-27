@@ -1,0 +1,15 @@
+@import "./vars";
+@import './mixins';
+@import "./typography.scss";
+@import './blocks/newsPage.scss';
+@import './blocks/articleCard.scss';
+@import './blocks/articlesList.scss';
+@import './blocks/header.scss';
+@import './blocks/homePage.scss';
+@import './blocks/signInPage.scss';
+@import './blocks/profilePage.scss';
+@import './blocks/pageNotFound.scss';
+
+.body {
+  max-width: 1024px;
+}

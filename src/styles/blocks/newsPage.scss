@@ -1,0 +1,108 @@
+.starter {
+  font-size: 18px;
+}
+
+.news {
+  &_page {
+    margin: 50px;
+  }
+
+  &_result_text {
+    padding-bottom: 10px;
+    width: 400px;;
+    border-bottom: 1px solid $colorLightGray;
+    font-family: "InterRegular", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+  }
+}
+
+#outlined-basic {
+  height: 20px;
+  width: 600px;
+  font-family: "InterLight", sans-serif;
+  size: 16px;
+
+  @include onMobile {
+    width: 324px;
+  }
+}
+
+.alert-message {
+  margin-top: 50px;
+}
+
+.filter_title {
+  font-family: "InterRegular", sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.no_result_page {
+  display: flex;
+  justify-content: space-between;
+
+  @include onTablet {
+    flex-direction: column;
+  }
+
+  &_information {
+    @include onTablet {
+      margin-bottom: 40px;
+      text-align: center;
+    }
+
+    @include onMobile {
+      margin: 20px;
+      text-align: center;
+    }
+
+    &_title {
+      font-family: "InterBold", sans-serif;
+      font-size: 50px;
+      margin-top: 10px;
+
+      @include onTablet {
+        font-size: 40px;
+      }
+
+      @include onMobile {
+        font-size: 32px;
+      }
+    }
+
+    &_text {
+      display: block;
+      width: 600px;
+      font-family: "InterLight", sans-serif;
+      font-size: 36px;
+      line-height: 46px;
+
+      @include onTablet {
+        width: 100%;
+        font-size: 28px;
+        line-height: 38px;
+      }
+
+      @include onMobile {
+        font-size: 22px;
+        line-height: 32px;
+      }
+    }
+  }
+
+  &_illustration {
+    height: 512px;
+    width: 512px;
+
+    @include onTablet {
+      width: 100%;
+      height: auto;
+    }
+
+    @include onMobile {
+      width: 100%;
+      height: auto;
+    }
+  }
+}

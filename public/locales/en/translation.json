@@ -1,0 +1,23 @@
+{
+  "home": "Home Page",
+  "news": "News",
+  "profile": "Profile",
+  "signup": "Sign in",
+  "homeTitle": "Welcome in Space Community!",
+  "homeText": "Connect with like-minded individuals whether you're an experienced astronomer or new to space exploration. Join our community to meet new friends, share your experiences, and learn from others. Come explore the universe with us.",
+  "newsSearch": "Filter by keywords",
+  "newsResult": "Results",
+  "readmore": "Read more",
+  "delete": "Delete",
+  "authTitle": "Sign in",
+  "username": "Username",
+  "password": "Password",
+  "logout": "Logout",
+  "favoriteTitle": "Favorites",
+  "favoritesNotFoundTitle": "Seems like you do not have any favorite items...",
+  "favoritesNotFoundText": "Make sure to add your favorite articles to your list, so you can easily find them later. If you haven't added any favorites yet, start browsing and find something that interests you. Add it to your list and never miss out on the latest space news!",
+  "pageNotFoundTitle": "Lost in Space? Let Us Help You!",
+  "pageNotFoundText": "Oops! It seems you've landed on a page that doesn't exist. Don't worry, we're here to help. Explore our site using the navigation menu to find the latest space news. We'll get you back on track in no time!",
+  "noResultsTitle": "Lost in Space News? Keep Searching!",
+  "noResultsText": "Oops, it seems like we couldn't find any articles that match your search. Don't worry, the search for the latest space news continues. Who knows what fascinating discoveries you'll come across while searching?"
+}
