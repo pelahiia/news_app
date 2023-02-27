@@ -46,7 +46,7 @@ export const Header: React.FC = () => {
   return (
     <nav className="header-navbar">
       <div className="header-navbar-content">
-        <a href="/" className="header-navbar-icon">
+        <a href={homePagePath} className="header-navbar-icon">
           <img
             className="header-navbar-icon"
             src={logoIcon}
